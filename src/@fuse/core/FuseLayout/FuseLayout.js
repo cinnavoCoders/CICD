@@ -136,7 +136,7 @@ function FuseLayout(props) {
   // console.warn('::FuseLayout:: rendered');
 
   const Layout = useMemo(() => layouts[settings.layout.style], [layouts, settings.layout.style]);
-  console.log('layouts',layouts);
+
   return _.isEqual(newSettings.current, settings) ? (
     <>
       {inputGlobalStyles}

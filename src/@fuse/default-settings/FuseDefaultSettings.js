@@ -237,6 +237,17 @@ export const defaultThemeOptions = {
         },
       ],
     },
+    MuiTableSortLabel: {
+      styleOverrides: {
+        root: {
+          flexDirection: 'row', // Reverse the order, so label is first and icon is second
+          justifyContent: 'flex-end',   // Align to the right
+        },
+        icon: {
+          position: 'unset'
+        },
+      },
+    },
   },
 };
 

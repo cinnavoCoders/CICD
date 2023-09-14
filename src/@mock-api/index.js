@@ -1,7 +1,9 @@
 import './api/auth-api';
 import './api/notifications-api';
+import './api/ecommerce-api';
 import history from '@history';
 import mock from './mock';
+
 
 mock.onAny().passThrough();
 
